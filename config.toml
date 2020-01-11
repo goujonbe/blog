@@ -1,0 +1,24 @@
+baseURL = "https://goujonbe.netlify.io/"
+languageCode = "en-us"
+title = "Data Super Heroes"
+theme = "beautifulhugo"
+enableEmoji = true
+
+[Params]
+    readingTime = true
+    socialShare = true
+
+[Author]
+    name = "Benoît Goujon"
+    github = "goujonbe"
+    twitter = "benoit_goujon"
+
+[[menu.main]]
+    name = "Blog"
+    url = ""
+    weight = 1
+
+[[menu.main]]
+    name = "About"
+    url = "page/about/"
+    weight = 3
