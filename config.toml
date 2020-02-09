@@ -23,3 +23,8 @@ googleAnalytics = "UA-141005574-1"
     name = "About"
     url = "page/about/"
     weight = 3
+
+[[menu.main]]
+    name = "Talks"
+    url = "page/talks/"
+    weight = 3
