@@ -1,7 +1,6 @@
 ---
 title: "K8s security - part 0"
 date: 2020-02-16T16:51:34+01:00
-draft: true
 ---
 
 ## Prerequisite
