@@ -37,7 +37,11 @@ This model represents pretty well the different layers that can be hardened by a
 
 Each layer deserves a dedicated blog post, so we will come back to them shortly.
 
-This model allows us to understand how hard it can be to secure your applications that are running on Kubernetes because of the number of layers to take into consideration. Furthermore, Kubernetes has for quite a bit of time been **insecure by default** as [Ian Coldwater](https://twitter.com/IanColdwater) and [Duffie Cooley](https://twitter.com/mauilion) pointed out in their [talk at Black Hat USA 2019](https://www.youtube.com/watch?v=HmoVSmTIOxM). This is mainly due to the fact that Kubernetes has been thought by developers for developers in the aim of increasing developer velocity. But security was not in their minds at the beginning and this is why deploying on Kubernetes in the early days of the project was a brave act. The [Cloud Native Computing Fundation](https://www.cncf.io/) has since lauched a bunch of initiatives like [open sourcing security audits](https://www.cncf.io/blog/2019/08/06/open-sourcing-the-kubernetes-security-audit/), a [bug bounty program](https://kubernetes.io/blog/2020/01/14/kubernetes-bug-bounty-announcement/) and published a lot of tutorials to help system administrators secure their clusters.
+This model allows us to understand how hard it can be to secure your applications that are running on Kubernetes because of the number of layers to take into consideration. Furthermore, Kubernetes has for quite a bit of time been **insecure by default** as [Ian Coldwater](https://twitter.com/IanColdwater) and [Duffie Cooley](https://twitter.com/mauilion) pointed out in their talk at Black Hat USA 2019.
+
+{{< youtube HmoVSmTIOxM >}}
+
+This is mainly due to the fact that Kubernetes has been thought by developers for developers in the aim of increasing developer velocity. But security was not in their minds at the beginning and this is why deploying on Kubernetes in the early days of the project was a brave act. The [Cloud Native Computing Fundation](https://www.cncf.io/) has since lauched a bunch of initiatives like [open sourcing security audits](https://www.cncf.io/blog/2019/08/06/open-sourcing-the-kubernetes-security-audit/), a [bug bounty program](https://kubernetes.io/blog/2020/01/14/kubernetes-bug-bounty-announcement/) and published a lot of tutorials to help system administrators secure their clusters.
 
 ## Conclusion
 
