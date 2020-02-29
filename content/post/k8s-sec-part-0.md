@@ -24,4 +24,30 @@ So why is it so hard to secure a cluster even with the help of public cloud prov
 
 ## The 4C's of cloud native security
 
+The first answer to this question is generally *"Because there is so many components and we don't know where to start"*. This is illustrated by what we call the 4C's of cloud native security.
+
 ![4C security model](/img/k8s_security_part_0/4c_security_model.png)
+
+This model represents I think pretty well the different layers that can be hardened by an attacker.
+
+* **Code**: every programming language has its vulnerabilities. Think of [buffer overflow](https://owasp.org/www-community/vulnerabilities/Buffer_Overflow) for example. Moreover, think about all the vulnerabilities a developer might introduce in terms of authentication, password storage policy and so on.
+* **Container**: technologies like Docker or [Apache Mesos](https://mesos.apache.org/) are regularly collared for being unsecure.
+* **Cluster**: Kubernetes is a distributed system that has a large **attack surface** and the bigger the attack surface, the easier it for an attacker to find a way in.
+* **Cloud**: nowadays, every cloud provider offers **managed Kubernetes services**. But configurations are not the same between the main actors and users still have to secure their clusters, in particular their worker nodes.
+
+Each layer deserves a dedicated blog post, so we will come back to them shortly.
+
+This model allows us to understand how hard it can be to secure your applications that are running on Kubernetes because of the number of layers to take into consideration. Furthermore, Kubernetes has for quite a bit of time been **insecure by default** as [Ian Coldwater](https://twitter.com/IanColdwater) and [Duffie Cooley](https://twitter.com/mauilion) pointed out in their [talk at Black Hat USA 2019](https://www.youtube.com/watch?v=HmoVSmTIOxM). This is mainly due to the fact that Kubernetes has been thought by developers for developers in the aim of increasing developer velocity. But security was not in their minds first and this is why deploying on Kubernetes in the early days of the project was a brave act. The [Cloud Native Computing Fundation](https://www.cncf.io/)has since lauched a bunch of initiatives like [open sourcing security audits](https://www.cncf.io/blog/2019/08/06/open-sourcing-the-kubernetes-security-audit/), a [bug bounty program](https://kubernetes.io/blog/2020/01/14/kubernetes-bug-bounty-announcement/) and published a lot of tutorials to help system administrators secure their clusters.
+
+## Conclusion
+
+So, in the first blog post of this series dedicated to Kubernetes security, we have seen that a lot of companies suffered from cyberattacks on their Kubernetes clusters. The recurrence of these attacks can be explained on the one hand by the number of layers administrators have to secure and on the other hand by the maturity and the nature of the project itself.
+
+## Future work
+
+This first episode was a short and high-level introduction. In the next episodes, we will dive into more details. Stay tuned for the next episode. I you want to get notified once the next episode will be ready, follow me on [twitter](https://twitter.com/benoit_goujon) :blush:.
+
+## References
+
+1. [Cloud native security model](https://kubernetes.io/docs/concepts/security/)
+2. [Attacking and defending Kubernetes, with Ian Coldwater](https://kubernetespodcast.com/episode/065-attacking-and-defending-kubernetes/)
