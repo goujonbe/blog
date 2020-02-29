@@ -24,3 +24,4 @@ So why is it so hard to secure a cluster even with the help of public cloud prov
 
 ## The 4C's of cloud native security
 
+![4C security model](/img/k8s_security_part_0/4c_security_model.png)
