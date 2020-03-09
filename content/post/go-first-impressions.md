@@ -4,11 +4,11 @@ date: 2019-12-28T13:06:49+01:00
 draft: true
 ---
 
-Over the past couple of weeks, I have been interested in a new language called Go. I have been developing mostly in Java and Python for 3 years now and I was keen to learn a new language. As I was looking for a new language to learn, Go caught my attention. Indeed, this language created by Googlers in 2007 has a lot of traction these days, espescially with the rise of cloud-native apps  and projects like [Kubernetes](https://kubernetes.io/) or [CockroachDB](https://www.cockroachlabs.com/) that are essentially developed in Go. Moreover, Go seems to be popular within the developer community according to the [lastest StackOverflow survey](https://insights.stackoverflow.com/survey/2019) and my colleagues are eulogistic when it comes to compare Go to other languages so "Let's Go!", I said.
-
-My goal in this article is to provide you objective (and less objective...)  information about Go's features, its adadvantages and drawbacks. I would also like to share links to resources I have found particularly useful through my journey and I will conclude this article by giving you my humble opinion on what has amazed me and what I have liked the least.
-
 ![Gopher mascot by Renee French](/img/go_first_impressions/gopher.png)
+
+Over the past couple of weeks, I have been interested in a new language called Go. I have been developing mostly in Java and Python for 3 years now and I was keen to learn a new language. As I was looking for a new language to learn, Go caught my attention. Indeed, this language created by Googlers in 2007 has a lot of traction these days, espescially with the rise of cloud-native apps  and projects like [Kubernetes](https://kubernetes.io/) or [CockroachDB](https://www.cockroachlabs.com/) that are essentially developed in Go. Moreover, Go seems to be popular within the developer community according to the [latest StackOverflow survey](https://insights.stackoverflow.com/survey/2019) and for my colleagues who are eulogistic about Go.
+
+My goal in this article is to provide you unbiased information about Go's features, its adadvantages and drawbacks. I would also like to share links to resources I have found particularly useful through my journey and I will conclude this article by giving you my humble opinion on what has amazed me and what I have liked the least.
 
 ## Creation and adoption
 
@@ -22,9 +22,10 @@ They imagined a language with the following characteristics:
 
 Since Google open-sourced Go in 2009, its adoption kept increasing. Nowadays, [major tech companies are using Go](https://github.com/golang/go/wiki/GoUsers) for multiple reasons and they are worth a detailed explanation.
 
-<figure>
-  <img src="/img/go_first_impressions/go_users.png" alt="Go users"/>
-  <figcaption>Companies that extensively use Go.</figcaption>
-</figure>
+![Companies that use Go](/img/go_first_impressions/go_users.png)
 
-## Why Go is so popular 
+## Why Go is so popular
+
+### Go performs well
+
+Old languages like Java or C/C++ are good but they were born when [Moore's Law](https://en.wikipedia.org/wiki/Moore%27s_law) was [still valid](https://www.economist.com/technology-quarterly/2016-03-12/after-moores-law). Since a few years now, we entered a new era where we physically can't miniaturize integrated circuits anymore. We now get more compute thanks to multicore processors. It is the era of distribued compute on a single machine but also on clusters of machines. And in this context, Go offers a solid alternative. Natively concurrent, it also compiles amazingly fast. Legend has even it that it was during the time the Google engineers' program was compiling that they had the idea to create Go.
