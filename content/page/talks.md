@@ -17,7 +17,9 @@ On the occasion of the [first SRE Paris meetup in 2020](https://www.meetup.com/f
 
 **Abstract**: Kubernetes is now the de facto technology when it comes to deploy your applications at scale. Although it is really convenient, before putting your applications in production, you should think about security and you will see that it is not as easy as it seems !
 
-**Resources**: slides to come.
+**Resources**:
+
+* [Slides](https://www.dropbox.com/s/504647lw081hzf7/kubernetes_security.pdf?dl=0)
 
 ### 2019
 
@@ -29,5 +31,5 @@ During my internship at Thales, I presented my work at a [local meetup whose foc
 
 **Resources**:
 
-* [slides](https://drive.google.com/file/d/1FyDTvDDkaafwrzctouqGzNTg8PaIjrtJ/view)
-* [Quick recap of the event by the organizer](http://marti.ai/hkml/2019/06/12/hkml-s1e11.html) 
+* [slides](https://www.dropbox.com/s/h7ufbnzp0oalr1b/meetup_hong_kong_machine_learning_thales.pdf?dl=0)
+* [Quick recap of the event by the organizer](http://marti.ai/hkml/2019/06/12/hkml-s1e11.html)
