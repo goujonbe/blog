@@ -26,6 +26,30 @@ Since Google open-sourced Go in 2009, its adoption kept increasing. Nowadays, [m
 
 ## Why Go is so popular
 
-### Go performs well
+### Go performs well while remaining simple
 
-Old languages like Java or C/C++ are good but they were born when [Moore's Law](https://en.wikipedia.org/wiki/Moore%27s_law) was [still valid](https://www.economist.com/technology-quarterly/2016-03-12/after-moores-law). Since a few years now, we entered a new era where we physically can't miniaturize integrated circuits anymore. We now get more compute thanks to multicore processors. It is the era of distribued compute on a single machine but also on clusters of machines. And in this context, Go offers a solid alternative. Natively concurrent, it also compiles amazingly fast. Legend has even it that it was during the time the Google engineers' program was compiling that they had the idea to create Go.
+Old languages like Java or C/C++ are good but they were born when [Moore's Law](https://en.wikipedia.org/wiki/Moore%27s_law) was [still valid](https://www.economist.com/technology-quarterly/2016-03-12/after-moores-law). Since a few years now, we entered a new era where we physically can't miniaturize integrated circuits anymore. We now get more compute thanks to multicore hardware. It is the era of distribued compute on a single machine but also on clusters of machines. And in this context, Go offers a solid alternative. Natively concurrent, it also compiles amazingly fast. Legend has even it that it was during the time the Google engineers' program was compiling that they had the idea to create Go.
+
+Performance often comes with more complexity. For example, Rust is extremely performant but it may be harder to learn than Go. Go is simple because:
+
+* There is a garbage collector that manages memory for you.
+* The documentation of packages is extremely good, espescially with the brand new [site](https://pkg.go.dev/) which centralizes documentation for a lot of packages.
+* It is opinionated. It avoids endless debates because there often is one correct way to do things, thus allowing you to get to the point.
+* It does not have too many features. It leaves out many features of object-oriented programming languages like classes, inheritance, constructors but also annotations and generics (well the latter might [change](https://blog.golang.org/why-generics)).
+
+Furthermore, Go's learning journey is very smooth thanks to awesome resources. I will share with you only a few of them trying to diversify their formats.
+
+* Go Time
+* TDD
+* Gophercises
+* A Tour of Go
+* Just for func
+* Go by example
+
+## You can deploy on almost every platform
+
+## Lots of use cases
+
+* CLI apps (point to my repo)
+* Back-end web development (point to my repo)
+* Infrastructure tools (Terraform)
