@@ -37,6 +37,8 @@ Performance often comes with more complexity. For example, Rust is extremely per
 * It is opinionated. It avoids endless debates because there often is one correct way to do things, thus allowing you to get to the point.
 * It does not have too many features. It leaves out many features of object-oriented programming languages like classes, inheritance, constructors but also annotations and generics (well the latter might [change](https://blog.golang.org/why-generics)).
 
+![Language matrix](/img/go_first_impressions/language_matrix.png)
+
 Furthermore, Go's learning journey is very smooth thanks to awesome resources. I will share with you only a few of them trying to diversify their formats.
 
 * Go Time
