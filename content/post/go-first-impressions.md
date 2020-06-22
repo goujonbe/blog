@@ -1,6 +1,7 @@
 ---
 title:  "Learning Go, first impressions"
 date: 2020-03-19T13:06:49+01:00
+tags: ["Go"]
 ---
 
 ![Gopher mascot by Renee French](/img/go_first_impressions/gopher.png)

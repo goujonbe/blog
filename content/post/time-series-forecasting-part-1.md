@@ -2,6 +2,7 @@
 title: "Time series forecasting series, part 1: introduction"
 layout: single
 date: 2019-06-01 14:34:59 +0800
+tags: ["Data science"]
 ---
 
 Forecasting has fasinated people for thousands of years because it is about prediciting the future. It sounds magical but it is not. There are metods to do so and this is the aim of this series: **showing the different techniques and present real-world use cases**.

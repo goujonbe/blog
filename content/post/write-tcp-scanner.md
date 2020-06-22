@@ -1,6 +1,7 @@
 ---
 title: "How to write a TCP scanner in Go"
 date: 2020-06-17T21:14:06+02:00
+tags: ["Go", "Cybersecurity"]
 ---
 
 ![Server with wires](/img/write_tcp_scanner/server_maintenance.jpg)
