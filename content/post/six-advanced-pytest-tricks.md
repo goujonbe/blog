@@ -1,7 +1,6 @@
 ---
 title: "Five Advanced Pytest Tricks"
 date: 2020-10-31T11:17:56+02:00
-draft: true
 tags: ["Python", "Software testing"]
 ---
 
