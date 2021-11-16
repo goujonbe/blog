@@ -3,7 +3,6 @@ languageCode = "en-us"
 title = "Software Gems"
 theme = "beautifulhugo"
 enableEmoji = true
-googleAnalytics = "UA-141005574-1"
 
 [Params]
     subtitle = "Go, Python, Distributed Systems, Cybersecurity"
