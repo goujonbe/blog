@@ -18,7 +18,7 @@ So what is Dagger?
 Dagger brings a new way to create CI/CD pipelines. It provides the following benefits:
 
 - **unify dev and CI environments**. With Dagger, you can run your pipelines locally!
-- **reduce CI lock-in**. The code stays the same whether you are running your CI/CD pipelines with GitHub Actions or GitLab CI or any other CI runner.
+- **reduce CI lock-in**. The code stays the same whether you are running your CI/CD pipelines with GitHub Actions, GitLab CI, or any other CI runner.
 
 With the introduction of a set of reusable packages, the aim is also to favor the developer's velocity.
 
@@ -37,7 +37,7 @@ Once the environment is set up, the process is almost the same for all projects:
 3. execute your actions locally.
 4. deploy to your remote CI runner.
 
-In my case, there wasn't any packages for rust, neither built-in nor from the community. So, I had to use the docker package to set up a reproducible environment and run my test suite.
+In my case, there wasn't any package for rust, neither built-in nor from the community. So, I had to use the docker package to set up a reproducible environment and run my test suite.
 
 To configure the actions, dagger leverages a language called **CUE**. My configuration looks like this:
 
